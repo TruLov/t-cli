@@ -1,0 +1,25 @@
+{
+  "name": "t-cli",
+  "version": "1.0.0",
+  "description": "Collection of helper functions for private usage.",
+  "exports": "./bin/index.js",
+  "bin": {
+    "t": "./bin/index.js"
+  },
+  "engines": {
+    "node": ">=16"
+  },
+  "type": "module",
+  "scripts": {
+    "link": "npm i . -g",
+    "unlink": "npm r tom-cli -g"
+  },
+  "keywords": [
+    "cli"
+  ],
+  "author": "Tom Ruloff",
+  "license": "ISC",
+  "dependencies": {
+    "inquirer": "^9.2.7"
+  }
+}
